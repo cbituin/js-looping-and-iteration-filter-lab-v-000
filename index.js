@@ -2,7 +2,7 @@
 const findMatching = (arr, name) => {
   let matchingData = [];
   matchingData.push(arr.filter(val => val === name));
-  return matchingData;
+  return matchingData.flatten;
 };
 
 
