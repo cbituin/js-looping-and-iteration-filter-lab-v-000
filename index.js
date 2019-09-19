@@ -9,5 +9,5 @@ const fuzzyMatch = (arr, letters) => {
 };
 
 const matchName = (obj, name) => {
-  return arr.filter(obj => val === obj.name);
+  return obj.filter(val => val.name === name);
 };
