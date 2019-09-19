@@ -8,6 +8,6 @@ const fuzzyMatch = (arr, letters) => {
   return arr.filter(val => val.startsWith(letters));
 };
 
-const matchName = () => {
-  
+const matchName = (arr, name) => {
+  return arr.filter(val => val === )
 };
