@@ -5,7 +5,7 @@ const findMatching = (arr, name) => {
 
 
 const fuzzyMatch = (arr, letters) => {
-  return arr.filter(val => val.includes(letters));
+  return arr.filter(val => val.startsWith(letters));
 };
 
 const matchName = () => {
