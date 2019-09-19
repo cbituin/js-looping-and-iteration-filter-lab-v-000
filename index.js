@@ -4,8 +4,8 @@ const findMatching = (arr, name) => {
 };
 
 
-const fuzzyMatch = () => {
-  
+const fuzzyMatch = (arr, letters) => {
+  return arr.filter();
 };
 
 const matchName = () => {
